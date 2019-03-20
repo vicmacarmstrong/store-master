@@ -84,7 +84,7 @@ padding: 0 2rem;
 .nav-link:hover {
     text-decoration: underline;
     background-color: #2a2a2a;
-      transition: all 0.2s;
+    transition: all 0.3s;
   }
 
 .hero {
