@@ -15,7 +15,7 @@ img {
 
 .nav {
   background-color: black;
-  padding: 0 1rem;
+  padding: 0;
   /* overflow: hidden; */
   position: fixed;
   top: 0;
@@ -32,6 +32,7 @@ img {
 .logo {
   color: white;
   margin: 1rem;
+  z-index: 999;
 }
 .logo > img {
   height: 1em;
@@ -39,7 +40,8 @@ img {
 
 .nav .dropdown{
 text-align: right;
-margin: 0 1rem;
+margin: 0;
+padding: 0 2rem;
 }
 
 .dropdown {
@@ -57,8 +59,8 @@ margin: 0 1rem;
 
 .nav-list {
   display: none;
-  /* padding: 1.5rem 0 0 0; */
-  width: 95vw;
+  padding: 1rem 0 0 0;
+  width: 100vw;
   position: absolute;
   top: 0;
   right: 0;
