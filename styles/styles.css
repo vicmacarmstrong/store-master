@@ -54,15 +54,18 @@ padding: 0 2rem;
 }
 
 .dropdown:hover .nav-list {
-  display: grid;
+  /* display: grid; */
+  height: 9.9375em;
 }
 
 .nav-list {
-  display: none;
-  padding: 1rem 0 0 0;
+  display: block;
+  /* padding: 1rem 0 0 0; */
   width: 100vw;
+  height: 0;
+  overflow: hidden;
   position: absolute;
-  top: 0;
+  top: 1em;
   right: 0;
   list-style: none;
   background-color: #000;
@@ -71,6 +74,7 @@ padding: 0 2rem;
   z-index: 900;
   padding-left: 0;
   /* grid-column-start: 1; */
+  transition: height 0.5s;
 }
 
 .nav-list a{
